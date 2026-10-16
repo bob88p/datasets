@@ -1,0 +1,1883 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_name": "GreenLens disease management and product candidates",
+  "language": [
+    "en",
+    "ar"
+  ],
+  "model_class_field": "disease_class",
+  "record_count": 26,
+  "data_provenance": {
+    "source": "Two user-provided JSON arrays merged by disease_class",
+    "independently_verified": false,
+    "important_note": "Product identity, active ingredient, manufacturer, URL availability, efficacy, and Egyptian registration have not been independently verified. Source claims are preserved as claims, not endorsements."
+  },
+  "link_status_values": [
+    "unchecked",
+    "reachable",
+    "redirected",
+    "dead",
+    "blocked",
+    "invalid_product_page",
+    "needs_manual_review"
+  ],
+  "management_status_values": [
+    "management_options_exist",
+    "no_known_cure",
+    "no_known_reliable_cure",
+    "pest_management_required",
+    "unknown"
+  ],
+  "diseases": [
+    {
+      "disease_class": "Apple___Apple_scab",
+      "crop_ar": "تفاح",
+      "disease_en": "Apple scab",
+      "disease_ar": "جرب التفاح",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "apple_apple_scab_candidate_01",
+          "product_brand": "Amistar Top",
+          "active_ingredient": "Azoxystrobin 20% + Difenoconazole 12.5%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_Top_200CM",
+          "source_records": [
+            "dataset_1",
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            },
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Protective contact fungicide; the exact crop/disease registration must be confirmed.",
+          "active_ingredient_or_method": "Mancozeb (Dithane M-45)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تُراجع التوصيات ومرحلة التطبيق وفترة ما قبل الحصاد وفق الملصق المحلي المعتمد."
+      ],
+      "product_count": 1,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Apple___Black_rot",
+      "crop_ar": "تفاح",
+      "disease_en": "Apple black rot",
+      "disease_ar": "العفن الأسود في التفاح",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "apple_black_rot_candidate_01",
+          "product_brand": "X-Factor",
+          "active_ingredient": "Azoxystrobin 20% + Fluazinam 30%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/X-Factor_1LT",
+          "source_records": [
+            "dataset_1",
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            },
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A fungicide option was suggested in the supplied data; verify against an authoritative label before use.",
+          "active_ingredient_or_method": "Difenoconazole (Score)",
+          "review_status": "pending"
+        },
+        {
+          "type": "general_fungicide",
+          "description": "A fungicide option was suggested in the supplied data; verify against an authoritative label before use.",
+          "active_ingredient_or_method": "Azoxystrobin",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "إزالة الثمار المتحنطة والأجزاء المصابة قد تقلل مصادر العدوى."
+      ],
+      "product_count": 1,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Apple___Cedar_apple_rust",
+      "crop_ar": "تفاح",
+      "disease_en": "Cedar apple rust",
+      "disease_ar": "صدأ التفاح المرتبط بالعرعر",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "apple_cedar_apple_rust_candidate_01",
+          "product_brand": "Rust End",
+          "active_ingredient": "Azoxystrobin 20% + Cyproconazole 8%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Rust_End_200CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "apple_cedar_apple_rust_candidate_02",
+          "product_brand": "Tilt",
+          "active_ingredient": "Tebuconazole 25%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Tilt_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A triazole fungicide option was suggested; verify the exact product and registration.",
+          "active_ingredient_or_method": "Tebuconazole (Folicur)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تختلف إدارة المرض حسب وجود العائل البديل والظروف المحلية؛ راجع مهندسًا زراعيًا."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Cherry_(including_sour)___Powdery_mildew",
+      "crop_ar": "كرز",
+      "disease_en": "Cherry powdery mildew",
+      "disease_ar": "البياض الدقيقي في الكرز",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "cherry_including_sour_powdery_mildew_candidate_01",
+          "product_brand": "Gatten",
+          "active_ingredient": "Flutianil",
+          "manufacturer": "Otsuka AgriTechno (Japan)",
+          "product_url": "https://shouraonline.com/product/Gatten_100CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "cherry_including_sour_powdery_mildew_candidate_02",
+          "product_brand": "Topas",
+          "active_ingredient": "Wettable Sulfur 80%",
+          "manufacturer": "Topas Agro",
+          "product_url": "https://agrimisr.com/product/topas-sulfur",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Sulfur or another registered product may be considered only when its label permits use on this crop and disease.",
+          "active_ingredient_or_method": "Wettable sulfur",
+          "review_status": "pending"
+        },
+        {
+          "type": "general_fungicide",
+          "description": "A triazole product was suggested in the supplied data; verify crop-specific registration.",
+          "active_ingredient_or_method": "Penconazole (Topas)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تجنب الرش في ظروف قد تسبب ضررًا للنبات، واتبع احتياطات الملصق المعتمد."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "crop_ar": "ذرة",
+      "disease_en": "Corn Cercospora / gray leaf spot",
+      "disease_ar": "تبقع الأوراق الرمادي في الذرة",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "corn_maize_cercospora_leaf_spot_gray_leaf_spot_candidate_01",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 25%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1LT",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "corn_maize_cercospora_leaf_spot_gray_leaf_spot_candidate_02",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 20%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A triazole fungicide option was suggested; confirm the exact label for maize and this disease.",
+          "active_ingredient_or_method": "Propiconazole (Tilt)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "استخدام هجن متحملة عند توفرها ومتابعة الحقل من ممارسات الإدارة المهمة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Corn_(maize)___Common_rust",
+      "crop_ar": "ذرة",
+      "disease_en": "Corn common rust",
+      "disease_ar": "الصدأ الشائع في الذرة",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "corn_maize_common_rust_candidate_01",
+          "product_brand": "Tilt",
+          "active_ingredient": "Propiconazole 25%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Tilt_100CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "corn_maize_common_rust_candidate_02",
+          "product_brand": "Folicur",
+          "active_ingredient": "Tebuconazole 25%",
+          "manufacturer": "BASF",
+          "product_url": "https://agrimisr.com/product/folicur-2l",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A strobilurin fungicide option was suggested; confirm registration and label directions.",
+          "active_ingredient_or_method": "Azoxystrobin (Amistar)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "مراقبة أعراض الصدأ واختيار أصناف متحملة عند توفرها."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Corn_(maize)___Northern_Leaf_Blight",
+      "crop_ar": "ذرة",
+      "disease_en": "Corn northern leaf blight",
+      "disease_ar": "لفحة الأوراق الشمالية في الذرة",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "corn_maize_northern_leaf_blight_candidate_01",
+          "product_brand": "Rust End",
+          "active_ingredient": "Azoxystrobin 20% + Cyproconazole 8%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Rust_End_200CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "corn_maize_northern_leaf_blight_candidate_02",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 20%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; confirm the exact crop/disease label.",
+          "active_ingredient_or_method": "Mancozeb (Dithane M-45)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "يُفضّل الاعتماد على الهجن المتحملة والإدارة الزراعية المتكاملة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Grape___Black_rot",
+      "crop_ar": "عنب",
+      "disease_en": "Grape black rot",
+      "disease_ar": "العفن الأسود في العنب",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "grape_black_rot_candidate_01",
+          "product_brand": "Odeen XL",
+          "active_ingredient": "Dimethomorph 38% + Pyraclostrobin 10%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/ODEEN_XL_300GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "grape_black_rot_candidate_02",
+          "product_brand": "Mospilan",
+          "active_ingredient": "Pyrimethanil 30%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Mospilan_500ML",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; confirm its suitability for grape black rot.",
+          "active_ingredient_or_method": "Mancozeb (Dithane M-45)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "إزالة الثمار المتحنطة والأجزاء المصابة قد تساعد على تقليل مصادر العدوى."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Grape___Esca_(Black_Measles)",
+      "crop_ar": "عنب",
+      "disease_en": "Grape Esca (black measles)",
+      "disease_ar": "مرض إسكا في العنب",
+      "management_status": "no_known_reliable_cure",
+      "products": [],
+      "alternatives": [
+        {
+          "type": "cultural_practice",
+          "description": "Remove severely affected wood where appropriate, sanitize pruning tools, and protect pruning wounds using locally recommended practices.",
+          "active_ingredient_or_method": "Sanitation and pruning-wound management",
+          "review_status": "review_recommended"
+        }
+      ],
+      "management_notes_ar": [
+        "البيانات المقدمة لا تحتوي على مبيد ذي علاج كيميائي موثوق؛ تُفضّل ممارسات النظافة الزراعية وإدارة الجروح."
+      ],
+      "product_count": 0,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "crop_ar": "عنب",
+      "disease_en": "Grape leaf blight / Isariopsis leaf spot",
+      "disease_ar": "تبقع أوراق العنب",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "grape_leaf_blight_isariopsis_leaf_spot_candidate_01",
+          "product_brand": "Divide",
+          "active_ingredient": "Metiram 55% + Pyraclostrobin 5%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Divide_10KG",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "grape_leaf_blight_isariopsis_leaf_spot_candidate_02",
+          "product_brand": "Xefo",
+          "active_ingredient": "Trifloxystrobin 30%",
+          "manufacturer": "BASF",
+          "product_url": "https://shouraonline.com/product/Xefo_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; confirm crop-specific registration.",
+          "active_ingredient_or_method": "Chlorothalonil (Daconil)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تحسين تهوية المجموع الخضري وتقليل البلل الطويل للأوراق عند الإمكان."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Orange___Haunglongbing_(Citrus_greening)",
+      "crop_ar": "موالح (برتقال)",
+      "disease_en": "Citrus greening (huanglongbing, HLB)",
+      "disease_ar": "تخضير الموالح (هوانغ لونغ بينغ)",
+      "management_status": "no_known_cure",
+      "products": [
+        {
+          "product_id": "orange_haunglongbing_citrus_greening_candidate_01",
+          "product_brand": "Mospilan",
+          "active_ingredient": "Acetamiprid 20%",
+          "manufacturer": "Nippon Soda (Japan)",
+          "product_url": "https://shouraonline.com/product/Mospilan_50GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "vector_control",
+          "description": "Vector-control products target the psyllid, not the disease-causing bacterium itself. Use only registered products and official local guidance.",
+          "active_ingredient_or_method": "Imidacloprid (Confidor)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "لا يوجد علاج شافٍ معروف للمرض؛ تُراجع الجهات الزراعية المختصة بشأن الناقل والشتلات المعتمدة والأشجار المصابة."
+      ],
+      "product_count": 1,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Peach___Bacterial_spot",
+      "crop_ar": "خوخ",
+      "disease_en": "Peach bacterial spot",
+      "disease_ar": "التبقع البكتيري في الخوخ",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "peach_bacterial_spot_candidate_01",
+          "product_brand": "Xefo",
+          "active_ingredient": "Copper Oxychloride 24%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Xefo_800GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "peach_bacterial_spot_candidate_02",
+          "product_brand": "Bellkute",
+          "active_ingredient": "Copper Oxychloride 78%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Bellkute_1kg",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "bactericide_copper",
+          "description": "Copper-based products require crop-specific label and phytotoxicity checks.",
+          "active_ingredient_or_method": "Copper hydroxide (Kocide)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "توقيت استخدام مركبات النحاس يعتمد على المحصول والمرحلة والملصق؛ لا تستخدم توصية عامة دون تحقق."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Pepper,_bell___Bacterial_spot",
+      "crop_ar": "فلفل حلو",
+      "disease_en": "Bell pepper bacterial spot",
+      "disease_ar": "التبقع البكتيري في الفلفل",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "pepper_bell_bacterial_spot_candidate_01",
+          "product_brand": "Copper Sulfate",
+          "active_ingredient": "Copper sulfate",
+          "manufacturer": "Various (available on AgriMisr)",
+          "product_url": "https://agrimisr.com/index.php?dispatch=products.view&product_id=7393",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "pepper_bell_bacterial_spot_candidate_02",
+          "product_brand": "Kocide",
+          "active_ingredient": "Copper Hydroxide 80%",
+          "manufacturer": "Koch Chemie",
+          "product_url": "https://shouraonline.com/product/Kocide_500g",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "bactericide_copper",
+          "description": "A fixed-copper option was suggested; verify label approval for pepper and bacterial spot.",
+          "active_ingredient_or_method": "Copper oxychloride (Cuprozin)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "استخدم بذورًا وشتلات سليمة، وتجنب العمل بين النباتات عندما تكون مبللة، وراعِ الدورة الزراعية."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Potato___Early_blight",
+      "crop_ar": "بطاطس",
+      "disease_en": "Potato early blight",
+      "disease_ar": "اللفحة المبكرة في البطاطس",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "potato_early_blight_candidate_01",
+          "product_brand": "Rust End",
+          "active_ingredient": "Azoxystrobin 20% + Cyproconazole 8%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Rust_End_200CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "potato_early_blight_candidate_02",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 20%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; confirm product registration and label for potato early blight.",
+          "active_ingredient_or_method": "Mancozeb (Dithane M-45)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تم حذف جرعة الاستخدام الواردة في البيانات لأنها تحتاج تحققًا مباشرًا من الملصق الرسمي الحالي."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Potato___Late_blight",
+      "crop_ar": "بطاطس",
+      "disease_en": "Potato late blight",
+      "disease_ar": "اللفحة المتأخرة في البطاطس",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "potato_late_blight_candidate_01",
+          "product_brand": "Super Hero",
+          "active_ingredient": "Dimethomorph 17.3% + Fluazinam 17.3%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Super_Hero_250CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "potato_late_blight_candidate_02",
+          "product_brand": "Ridomil Gold",
+          "active_ingredient": "Mancozeb 80%",
+          "manufacturer": "BASF",
+          "product_url": "https://agrimisr.com/product/ridomil-gold",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A Metalaxyl-M + Mancozeb product was suggested; verify the formulation and crop/disease label.",
+          "active_ingredient_or_method": "Metalaxyl-M + Mancozeb (Ridomil Gold)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تم حذف الجرعات وفترات التكرار الواردة في البيانات لحين التحقق من الملصق المعتمد."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Squash___Powdery_mildew",
+      "crop_ar": "كوسة",
+      "disease_en": "Squash powdery mildew",
+      "disease_ar": "البياض الدقيقي في الكوسة",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "squash_powdery_mildew_candidate_01",
+          "product_brand": "Gatten",
+          "active_ingredient": "Flutianil",
+          "manufacturer": "Otsuka AgriTechno (Japan)",
+          "product_url": "https://shouraonline.com/product/Gatten_100CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "squash_powdery_mildew_candidate_02",
+          "product_brand": "Rally",
+          "active_ingredient": "Myclobutanil 30%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Rally_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Sulfur was suggested as an option; verify label instructions and crop safety.",
+          "active_ingredient_or_method": "Wettable sulfur",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تأكد من ملاءمة أي منتج للكوسة تحديدًا واتبع الملصق لتجنب الضرر النباتي."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Strawberry___Leaf_scorch",
+      "crop_ar": "فراولة",
+      "disease_en": "Strawberry leaf scorch",
+      "disease_ar": "لفحة أوراق الفراولة",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "strawberry_leaf_scorch_candidate_01",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 25%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1LT",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "strawberry_leaf_scorch_candidate_02",
+          "product_brand": "Super Hero",
+          "active_ingredient": "Zinc Oxide 20%",
+          "manufacturer": "Mansfield",
+          "product_url": "https://shouraonline.com/product/Super_Hero_200g",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Chlorothalonil was suggested in the supplied data; confirm that the product is currently permitted on strawberry in Egypt.",
+          "active_ingredient_or_method": "Chlorothalonil (Daconil)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تم استبعاد ادعاءات فترة ما قبل الحصاد غير المتحقق منها؛ راجع ملصق المنتج المحدد."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Bacterial_spot",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato bacterial spot",
+      "disease_ar": "التبقع البكتيري في الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_bacterial_spot_candidate_01",
+          "product_brand": "Xefo",
+          "active_ingredient": "Copper Oxychloride 24%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Xefo_800GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_bacterial_spot_candidate_02",
+          "product_brand": "Cuprozin",
+          "active_ingredient": "Copper Hydroxide 80%",
+          "manufacturer": "Cuprozin Ltd",
+          "product_url": "https://shouraonline.com/product/Cuprozin_500g",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "bactericide_copper",
+          "description": "A copper hydroxide product was suggested; verify product identity and registered use on tomato.",
+          "active_ingredient_or_method": "Copper hydroxide (Kocide)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "استخدم شتلات سليمة وتجنب العمل في الحقل عندما تكون النباتات مبللة؛ الإدارة لا تعني ضمان الشفاء."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Early_blight",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato early blight",
+      "disease_ar": "اللفحة المبكرة في الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_early_blight_candidate_01",
+          "product_brand": "X-Factor",
+          "active_ingredient": "Azoxystrobin 20% + Fluazinam 30%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/X-Factor_1LT",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_early_blight_candidate_02",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 20%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; verify crop/disease registration.",
+          "active_ingredient_or_method": "Mancozeb (Dithane M-45)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تم حذف جرعة الرش الواردة في البيانات لأنها ليست موثقة هنا بملصق منتج محدد."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Late_blight",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato late blight",
+      "disease_ar": "اللفحة المتأخرة في الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_late_blight_candidate_01",
+          "product_brand": "Super Hero",
+          "active_ingredient": "Dimethomorph 17.3% + Fluazinam 17.3%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Super_Hero_250CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_late_blight_candidate_02",
+          "product_brand": "Ridomil Gold",
+          "active_ingredient": "Mancozeb 80%",
+          "manufacturer": "BASF",
+          "product_url": "https://agrimisr.com/product/ridomil-gold",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "A Metalaxyl-M + Mancozeb option was suggested; check the exact formulation and registration.",
+          "active_ingredient_or_method": "Metalaxyl-M + Mancozeb (Ridomil Gold)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تم حذف الجرعات وفترات الرش غير المتحقق منها؛ اتبع الملصق المحلي للمنتج المحدد."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Leaf_Mold",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato leaf mold",
+      "disease_ar": "عفن أوراق الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_leaf_mold_candidate_01",
+          "product_brand": "Odeen XL",
+          "active_ingredient": "Dimethomorph 38% + Pyraclostrobin 10%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/ODEEN_XL_300GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_leaf_mold_candidate_02",
+          "product_brand": "Mospilan",
+          "active_ingredient": "Pyrimethanil 30%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Mospilan_500ML",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Chlorothalonil was suggested; verify the exact crop and disease registration.",
+          "active_ingredient_or_method": "Chlorothalonil (Daconil)",
+          "review_status": "pending"
+        },
+        {
+          "type": "general_fungicide",
+          "description": "A contact protectant was suggested; verify crop/disease suitability.",
+          "active_ingredient_or_method": "Mancozeb",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تحسين التهوية وتقليل الرطوبة في البيوت المحمية من ممارسات الإدارة المهمة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Septoria_leaf_spot",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato Septoria leaf spot",
+      "disease_ar": "تبقع أوراق السبتوريا في الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_septoria_leaf_spot_candidate_01",
+          "product_brand": "Amistar Top",
+          "active_ingredient": "Azoxystrobin 20% + Difenoconazole 12.5%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_Top_200CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_septoria_leaf_spot_candidate_02",
+          "product_brand": "Amistar",
+          "active_ingredient": "Azoxystrobin 20%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Amistar_1L",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Chlorothalonil was suggested; verify the currently approved crop/disease label.",
+          "active_ingredient_or_method": "Chlorothalonil (Daconil)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "إزالة الأوراق المصابة وتجنب الري الذي يبلل المجموع الخضري قد يساعدان في الإدارة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato two-spotted spider mite",
+      "disease_ar": "العنكبوت ذو البقعتين على الطماطم",
+      "management_status": "pest_management_required",
+      "products": [
+        {
+          "product_id": "tomato_spider_mites_two_spotted_spider_mite_candidate_01",
+          "product_brand": "Biomectin",
+          "active_ingredient": "Abamectin 1.8%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Biomectin_120CM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_spider_mites_two_spotted_spider_mite_candidate_02",
+          "product_brand": "Gate",
+          "active_ingredient": "Abamectin 1.8%",
+          "manufacturer": "Syngenta",
+          "product_url": "https://shouraonline.com/product/Gate_250ml",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "acaricide",
+          "description": "Etoxazole was suggested as an acaricide; verify exact registration and resistance-management guidance.",
+          "active_ingredient_or_method": "Etoxazole (Masai)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "هذه الفئة آفة أكاروسية وليست مرضًا فطريًا؛ يجب أن يصنفها التطبيق كآفة لا كمرض فطري.",
+        "تجنب تكرار نفس مجموعة آلية التأثير دون إرشاد معتمد لتقليل خطر المقاومة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Target_Spot",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato target spot",
+      "disease_ar": "البقعة الهدفية في الطماطم",
+      "management_status": "management_options_exist",
+      "products": [
+        {
+          "product_id": "tomato_target_spot_candidate_01",
+          "product_brand": "Klop",
+          "active_ingredient": "Difenoconazole 25%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Klop_200GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        },
+        {
+          "product_id": "tomato_target_spot_candidate_02",
+          "product_brand": "X-Factor",
+          "active_ingredient": "Azoxystrobin 20% + Fluazinam 30%",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/X-Factor_1LT",
+          "source_records": [
+            "dataset_2"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_2",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "reachable",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "general_fungicide",
+          "description": "Azoxystrobin was suggested; verify registration, label, and disease efficacy.",
+          "active_ingredient_or_method": "Azoxystrobin (Amistar)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "تحسين حركة الهواء وتجنب كثافة الزراعة المفرطة قد يساعدان على خفض ظروف الإصابة."
+      ],
+      "product_count": 2,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato yellow leaf curl virus",
+      "disease_ar": "فيروس تجعد واصفرار أوراق الطماطم",
+      "management_status": "no_known_cure",
+      "products": [
+        {
+          "product_id": "tomato_tomato_yellow_leaf_curl_virus_candidate_01",
+          "product_brand": "Rubek",
+          "active_ingredient": "Acetamiprid",
+          "manufacturer": "Shoura Chemicals",
+          "product_url": "https://shouraonline.com/product/Rubek_50GM",
+          "source_records": [
+            "dataset_1"
+          ],
+          "source_claims": [
+            {
+              "source_record": "dataset_1",
+              "verified_in_egypt": true
+            }
+          ],
+          "egypt_registration_status": "unverified",
+          "link_status": "needs_manual_review",
+          "last_checked_utc": "2026-10-16T19:39:44Z",
+          "review_status": "pending",
+          "eligible_for_display": false
+        }
+      ],
+      "alternatives": [
+        {
+          "type": "vector_control",
+          "description": "The listed chemical options target whitefly vectors, not the virus. Use only locally registered products and integrated vector-management advice.",
+          "active_ingredient_or_method": "Thiamethoxam (Actara)",
+          "review_status": "pending"
+        }
+      ],
+      "management_notes_ar": [
+        "لا يوجد علاج كيميائي يشفي النبات من الفيروس؛ الوقاية تشمل شتلات سليمة وأصنافًا مقاومة وإدارة الذبابة البيضاء وفق الإرشاد المحلي."
+      ],
+      "product_count": 1,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    },
+    {
+      "disease_class": "Tomato___Tomato_mosaic_virus",
+      "crop_ar": "طماطم",
+      "disease_en": "Tomato mosaic virus",
+      "disease_ar": "فيروس موزاييك الطماطم",
+      "management_status": "no_known_cure",
+      "products": [],
+      "alternatives": [
+        {
+          "type": "cultural_practice",
+          "description": "Use clean planting material, sanitize tools, remove infected plants as advised, and select resistant cultivars. Do not treat this as an insect-vector disease by default.",
+          "active_ingredient_or_method": "Sanitation and resistant varieties",
+          "review_status": "review_recommended"
+        }
+      ],
+      "management_notes_ar": [
+        "لا يوجد علاج كيميائي يشفي النبات من الفيروس؛ النظافة الزراعية والأصناف المقاومة من وسائل الإدارة المهمة."
+      ],
+      "product_count": 0,
+      "data_review_status": "pending",
+      "disease_model_output_is_diagnosis": false,
+      "display_policy": {
+        "show_products_only_after_review": true,
+        "require_working_product_link": true,
+        "require_verified_local_registration_and_crop_label": true
+      }
+    }
+  ],
+  "link_audit": {
+    "audit_date_utc": "2026-10-16T19:39:44Z",
+    "verification_method": "Opened product pages through web verification; direct HTTP status codes were unavailable in this environment.",
+    "unique_product_urls": 28,
+    "product_url_occurrences": 44,
+    "reachable_unique_urls": 14,
+    "needs_manual_review_unique_urls": 14,
+    "status_meanings": {
+      "reachable": "The product page opened and rendered during the check.",
+      "needs_manual_review": "The verification tool could not open the URL or could not confirm the current page. This is not proof that the URL is dead."
+    },
+    "reachable_urls": [
+      {
+        "url": "https://agrimisr.com/index.php?dispatch=products.view&product_id=7393",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/Amistar_1LT",
+        "status": "reachable",
+        "occurrences": 2
+      },
+      {
+        "url": "https://shouraonline.com/product/Amistar_Top_200CM",
+        "status": "reachable",
+        "occurrences": 2
+      },
+      {
+        "url": "https://shouraonline.com/product/Biomectin_120CM",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/Divide_10KG",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/Gatten_100CM",
+        "status": "reachable",
+        "occurrences": 2
+      },
+      {
+        "url": "https://shouraonline.com/product/Klop_200GM",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/Mospilan_50GM",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/ODEEN_XL_300GM",
+        "status": "reachable",
+        "occurrences": 2
+      },
+      {
+        "url": "https://shouraonline.com/product/Rust_End_200CM",
+        "status": "reachable",
+        "occurrences": 3
+      },
+      {
+        "url": "https://shouraonline.com/product/Super_Hero_250CM",
+        "status": "reachable",
+        "occurrences": 2
+      },
+      {
+        "url": "https://shouraonline.com/product/Tilt_100CM",
+        "status": "reachable",
+        "occurrences": 1
+      },
+      {
+        "url": "https://shouraonline.com/product/X-Factor_1LT",
+        "status": "reachable",
+        "occurrences": 3
+      },
+      {
+        "url": "https://shouraonline.com/product/Xefo_800GM",
+        "status": "reachable",
+        "occurrences": 2
+      }
+    ],
+    "needs_manual_review_urls": [
+      {
+        "url": "https://agrimisr.com/product/folicur-2l",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://agrimisr.com/product/ridomil-gold",
+        "status": "needs_manual_review",
+        "occurrences": 2,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://agrimisr.com/product/topas-sulfur",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Amistar_1L",
+        "status": "needs_manual_review",
+        "occurrences": 5,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Bellkute_1kg",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Cuprozin_500g",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Gate_250ml",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Kocide_500g",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Mospilan_500ML",
+        "status": "needs_manual_review",
+        "occurrences": 2,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Rally_1L",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Rubek_50GM",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Super_Hero_200g",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Tilt_1L",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      },
+      {
+        "url": "https://shouraonline.com/product/Xefo_1L",
+        "status": "needs_manual_review",
+        "occurrences": 1,
+        "reason": "Could not confirm this exact URL with the available web check; not marked dead without an HTTP 404/410 or equivalent confirmation."
+      }
+    ],
+    "important_note": "This audit checks link reachability only. Product identity, active ingredient/formulation, manufacturer, efficacy, Egyptian registration, and crop/disease-label suitability remain unverified. Existing eligible_for_display=false values are intentionally preserved."
+  }
+}
